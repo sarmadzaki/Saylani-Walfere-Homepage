@@ -1,0 +1,531 @@
+body {
+        font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+}
+#date{
+    width: 10.5in;
+    height: 0.3in;
+    display: inline-block;
+    background-color: #71a215;
+    float: left;
+ 
+    
+}
+.live{
+    color: white;
+    float: right;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    
+}
+#header {
+    display: inline-block;
+    background-color: white;
+    float: left;
+    padding-left: 1px;
+}
+#header.img2{
+    display: inline-block;
+    background-color: white;
+    float: right;
+    text-align: right;
+    
+}
+
+
+.break {
+    font-size: 0;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+#navigation {
+    width: 10.5in;
+    height: 1.5in;
+    display: inline-block;
+    background-color: #316DC3;
+    text-align: left;
+
+    }
+.button {
+    background-color: #316DC3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    float: left;
+    
+}
+
+.button:hover {
+    background-color: #a8e000;
+}
+   #navigation ul {
+       font-style: bold;
+       font-size: 11pt;
+       clear: both;
+       float: left;
+       list-style-type: none;
+       padding-top: 5px;
+       margin-bottom: 1px;
+   }
+
+    #navigation ul li {
+        float: left;
+        margin: 7px;
+        color: white;
+    }
+    #navigation ul li a{
+        color: white;
+        font-family: Arial;
+        font: bold;
+        text-decoration: none;
+    }
+    #navigation ul li a:hover{
+       background: #a8e000;
+        text-decoration: none;
+        display: block !important;
+        padding-top: 
+    }
+    .cont {
+        text-align: center;
+    }
+    .img{
+        position: relative;
+        float: unset;
+        box-shadow: 4px 4px 10px;
+    }
+    #list{
+        background-color: white;
+        height: 22px;
+        font-size: 8pt;
+    }
+    ul#list li{
+        display: inline;
+        margin: 15px;
+    }
+    ul#list li a{
+        color: black;
+        text-decoration: none;
+    }
+    ul#list li a:hover{
+        text-decoration: none;
+        color: red;
+
+    }
+   
+    .books {
+       background-color: #a8e000;
+       color: white;
+       font-family: Arial; }
+       #current-project{
+           color: #8fb949;
+       }
+
+     #current-project hr{
+         color:black;
+         border-bottom:4px solid #316DC3;
+         border-top:2px solid black;
+         text-align: center;
+         width: 5.3in;
+         position: absolute;
+         top: 700px;
+         left: 225px;} 
+         #current-project h2{
+            position: absolute;
+            top: 660px;
+            left: 230px;
+         }
+.search-hr hr{
+    color: lightgray;
+    border-bottom: 3px solid lightgrey;
+    width: 2in;
+    float: left;
+    position: absolute;
+    left: 20px;
+    top: 670px;
+}
+.hr2{color: lightgray;
+    border-bottom: 3px solid lightgrey;
+    width: 2in;
+    float: left;
+    position: absolute;
+    left: 20px;
+    top: 700px;
+
+}
+.form form{
+    float: left;
+    width: 2in;
+    position: absolute;
+    top: 670px;
+    left: 20px;
+}
+.search{
+    float: left;
+    width: 2in;
+    position: absolute;
+    top: 655px;
+    left: 20px;
+}
+.search h3{
+    color: #8fb949;
+    font-size: 25px;
+    position: absolute;
+    top: 1px;
+    bottom: 10px;
+}
+.search hr{
+    color: lightgray;
+    border-bottom: 3px solid lightgrey;
+    
+    
+}
+input[type=text]{
+    width: 170px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(searchicon.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus{
+width: 100%;
+}
+.subscribe {
+    float: right;
+    position: absolute;
+    top: 656px;
+    left: 776px;
+}
+.form2 form{
+    position: absolute;
+    float: right;
+    left: 779px;
+    top: 730px;
+}
+.hr4{ color: white;
+    border-bottom: 3px solid lightgrey;
+    position: absolute;
+    float: right;
+    width: 2in;
+    left: 770px;
+    top: 665px;
+
+}
+.subscribe h3{
+    color: #8fb949;
+    font-size: 25px;
+}
+.subscribe hr{
+    color: lightgray;
+    border-bottom: 3px solid lightgrey;
+}
+.title{
+    float: left;
+    text-align: left;
+    position: absolute;
+    top: 790px;
+    left: 20px;
+}
+.title h3{
+    color: #8fb949;
+    font-size: 25px;
+}
+.title hr{
+      color: lightgray;
+    border-bottom: 3px solid lightgrey;
+    width: 2in;
+}
+.form{
+    position: absolute;
+    top: 55px;
+}
+.banner3{
+    position: absolute;
+    float: left;
+    top: 900px;
+    left: 15px;
+}
+.banner4{
+    position: absolute;
+    float: left;
+    top: 1166px;
+}
+.support-saylani{
+    float: left;
+    text-align: left;
+    position: absolute;
+    left:800px;
+    top: 850px;
+    font-size: 25px;
+}
+.support{
+    color: #8fb949;
+    position: absolute;
+
+}
+.saylani{
+    color: #316DC3;
+    position: absolute;
+     top: 20px;
+}
+.banner5{
+    float: left;
+    position: absolute;
+    left: 780px;
+    top: 940px;
+    box-shadow: 4px 4px 4px;
+}
+.banner6{
+        float: left;
+    position: absolute;
+    left: 780px;
+    top: 1100px;
+    box-shadow: 4px 4px 4px;
+}
+.banner7{
+      float: left;
+    position: absolute;
+    left: 780px;
+    top: 1255px;
+    box-shadow: 4px 4px 4px;
+}
+.cp{background-color: #a8e000;
+       color: white;
+       width: 1.5in;
+       height: 29px;
+       position: absolute;
+       left: 230px;
+       top: 720px;
+       
+       }
+       .mass{
+           float: left;
+           position: absolute;
+           left: 240px;
+           top: 800px;
+
+       }
+       .text p{
+           position: absolute;
+           left: 375px;
+           top: 783px;
+           width: 1in;
+       }
+       .text p a{
+           color: black;
+           text-decoration: none;
+           font-size: 9pt;
+       }
+       .text p a:hover{
+           text-decoration: underline;
+       }
+       .earthquake{
+           float: left;
+           position: absolute;
+           left: 500px;
+           top: 800px;
+       }
+       .text2 p{
+           position: absolute;
+           left: 636px;
+           top: 783px;
+           width: 1in;
+       }
+       .text2 p a{
+           color: black;
+           text-decoration: none;
+           font-size: 9pt;
+       }
+       .text2 p a:hover{
+           text-decoration: underline;
+       }
+       .services{
+           color: #8fb949;
+           position: absolute;
+           top: 871px;
+           left: 220px;
+           float: left;
+           font-size: 16pt;
+       }
+       .service-detail{
+           background-color: #454440;
+            position: absolute;
+           top: 920px;
+           left: 220px;
+           width: 5.5in;
+           height: 4%;
+           border-bottom: solid #a8e000;
+       }
+       .p{
+           position: absolute;
+           left: 227px;
+           top: 909px;
+           color: white;
+       }
+       .slide-changer{
+           position: absolute;
+           left: 680px;
+           top: 890px;
+       }
+       .service-pic{
+           position: absolute;
+           left: 220px;
+           top: 960px;
+       }
+       .service-pic img{
+            -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+       }
+    .service-pic img:hover {
+        color: blue;}
+        .img-text {
+            position: absolute;
+            left: 220px;
+            top: 1067px;
+            color: white;
+        }
+ .img-text2 {
+            position: absolute;
+            left: 500px;
+            top: 1067px;
+            color: white;
+        }
+.image-gallery {
+    background-color: #454440;
+            position: absolute;
+           top: 1200px;
+           left: 220px;
+           width: 5.5in;
+           height: 4%;
+           border-bottom: solid #a8e000;
+}
+.gallery{
+    position: absolute;
+    left: 220px;
+    top: 1155px;
+    color: #316DC3;
+}
+.galleries{
+    position: absolute;
+    left: 230px;
+    top: 1240px;
+}
+.galleries a:hover{
+    color: red;
+}
+.box{
+    background-color: #0264a3;
+    position: absolute;
+    width: 10.4in;
+    height: 4.5in;
+    top: 1450px;
+    border-top: solid #a8e000;
+}
+.box h1{
+    color: #71a215;
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    font-size: 12pt;
+}
+.logof{
+    position: absolute;
+    left: 25px;
+    top: 35px;
+}
+.box ul{
+    position: absolute;
+    top: 90px;
+    left: 25px;
+    margin: 4px;
+    width: 2in;
+}
+.box ul li{
+    margin: 20px;
+    color: white;
+    list-style-type: none;
+    top: 20px;
+}
+.location{
+    position: absolute;
+    left: 15px;
+}
+.social-icons{
+    position: absolute;
+    top: 335px;
+    left: 50px;
+}
+.fb{
+    position: absolute;
+    left: 400px;
+    top: 6px;
+    display: inline;
+}
+.fb-page{
+    position: absolute;
+    top: 78px;
+    left: 420px;
+}
+.btn{
+    position: absolute;
+    left: 760px;
+    top: 78px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #28a9e2;
+  border: none;
+  border-radius: 15px;
+  width: 230px;
+  height: 40px;
+}
+
+.bt:hover {background-color: #2487b5;}
+
+.btn:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+.twitter{
+    position: absolute;
+    left: 700px;
+    top: 30px
+}
+.footer-last{
+    background-color: #8fb949;
+    width: 10.4in;
+    position: absolute;
+    top: 1880px;
+    height: 0.8in;
+    text-align: center;
+    color: white;
+}
+.footer-last a{
+    color: white;
+    text-decoration: none;
+}
+.footer-last a:hover{
+    color: #316DC3;
+    text-decoration: none;
+}
